@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Hitta just din aktivitet...</title>
+<link rel="stylesheet" href="css/app.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="wrapper">
+    <div class="top-container">
+        <div class="row">
+            <div class="large-12 columns">
+                <nav id="member-btns">
+                    <ul>
+                        <li><a href="sign-up.html" title="">Bli medlem</a></li>
+                        <li><a href="login.html" title="">Logga in</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div><!-- /top-container-->
+    <div class="header-container">
+        <div class="large-12 columns">
+            <header>
+            <a href="index.html" title="" id="logo"><img src="gfx/logo.png" alt="Logotype"></a>
+            <div id="top-search-container" class="right">
+            <form action="#" method="post" id="top-search-form">
+            	<input type="search" id="search" name="search" placeholder="Sök...">
+                <input type="submit" id="submit" value="Sök">
+            </form>
+            </div>
+            <nav id="main-nav">
+                <ul>
+                    <li><a href="index.html" title="Start">Start</a></li>
+                    <li><a href="find-events.html" title="Hitta evenemang" class="active">Hitta evenemang</a></li>
+                    <li><a href="answer-and-questions.html" title="Frågor och svar">Frågor och svar</a></li>
+                    <li><a href="about.html" title="Om oss">Om oss</a></li>
+                    <li><a href="contact.html" title="Kontakta oss">Kontakta oss</a></li>
+                </ul>
+            </nav>
+            </header>
+    	</div>
+    </div><!-- /header-container -->
+    <div class="content">
+    	<div class="row events events-type">
+            <section class="large-12 columns sections table-events middle">
+            	<ul id="tabs">
+                	<li><a class="active" href="#" title="">Nya aktiviteter</a></li>
+                    <li><a href="#" title="">Populära aktiviteter</a></li>
+                </ul>
+                <h2>Populära aktiviteter</h2>
+                <button>Filtrera</button>
+                <ul id="gridlist">
+                	<li><a href="#grid" id="grid"><img src="gfx/grid.png" alt=""></a></li>
+                    <li><a href="#list" id="list"><img src="gfx/list.png" alt=""></a></li></li>
+                </ul>
+                <table id="new-events" class="list-events">
+                <thead>
+                    <th>Datum</th>
+                    <th>Aktivitet</th>
+                    <th>Beskrivning</th>
+                    <th>Ort</th>
+                    <th>Upplagt av</th>
+                </thead>
+                <tbody>
+                <tr>
+                    <td><time datetime="2013-09-16">16 sep</time></td>
+                    <td><a href="#" title="Konsert">Konsert</a></td>
+                    <td><p>Pellentesque habitant morbi tristique senectus et netus et malesuada...</p></td>
+                    <td>Malmö</td>
+                    <td>JRmaster86</td>
+                </tr>
+                                    <tr>
+                    <td><time datetime="2013-09-16">16 sep</time></td>
+                    <td><a href="#" title="Konsert">Konsert</a></td>
+                    <td><p>Pellentesque habitant morbi tristique senectus et netus et malesuada...</p></td>
+                    <td>Malmö</td>
+                    <td>JRmaster86</td>
+                </tr>
+                                    <tr>
+                    <td><time datetime="2013-09-16">16 sep</time></td>
+                    <td><a href="#" title="Konsert">Konsert</a></td>
+                    <td><p>Pellentesque habitant morbi tristique senectus et netus et malesuada...</p></td>
+                    <td>Malmö</td>
+                    <td>JRmaster86</td>
+                </tr>
+                </tbody>
+                </table>
+            </section>
+    	</div>
+    </div><!-- /content -->
+</div><!-- /wrapper -->
+<footer class="row footer-container">
+    <div class="footer-content large-12 columns">
+        <nav>
+        <ul>
+            <li><a href="index.html" title="Start">Start</a></li>
+            <li><a href="find-events.html" title="Hitta evenemang" class="active">Hitta evenemang</a></li>
+            <li><a href="answer-and-questions.html" title="Frågor och svar">Frågor och svar</a></li>
+            <li><a href="about.html" title="Om oss">Om oss</a></li>
+            <li><a href="contact.html" title="Kontakta oss">Kontakta oss</a></li>
+        </ul>
+        </nav>
+    </div>
+</footer><!-- /footer -->
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script src="javascripts/functions.js"></script>
+</body>
+</html>
